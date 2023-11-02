@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.judul {
+  text-align: center;
+}
+
+.fotoProfile {
+  width: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.fotodiri {
+  width: 70%;
+  height: 500px;
+  margin-top: 3%;
+  border: 5px solid black;
+}
+
+.fotodiri-placeholder {
+  width: 70%;
+  height: 500px;
+  margin-top: 3%;
+  border: 5px solid black;
+}
+
+.showfoto {
+  width: 20%;
+  height: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  margin-top: 3%;
+  border-radius: 5px;
+}
+
+.gabungan {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 2%;
+}
+
+.kiri {
+  width: 50%;
+}
+
+
+.kanan {
+  width: 50%;
+  margin-left: 2%;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 3%;
+}
